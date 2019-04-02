@@ -12,48 +12,66 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+<title>About</title>
+
+<link rel='stylesheet' type='text/css' href='css/About.css'>
 
 </head>
-
-<body>
-
-  <div class="jumbotron text-center">
-    <h1>Lifeline</h1>
-    <p> Everyday people are first responders</p>
+</body>
+<!--Navigation bar--->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Lifeline</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="homepage.html">Home</a></li>
+        <li><a href="CPR.html">CPR</a></li>
+        <li><a href="Defibrillator.html">Defibrillator</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Contact</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> Resources</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>About Us</h2>
-        <p>Put a Photo of the team here</p>
-        <p>Lifeline was created by Manpreet, Rumesh, Mayesha and Hillary to help educate everyday people on first aid. </p>
-          <h3>Why is learning First Aid so important ?</h3>
-        <ol>
-          <li> You can help save a loved ones life - did you know 80% of cardiac arrests occur in the home </li>
-          <Li> You will have improved confidence to respond in emergancies</li>
-          <Li> Ambulances take an estimated 8 minutes to arrive at an incident you will need to respond quickly as times is not on your side </li>
-      </div>
-      <div class="col-sm-12">
-        <h2>Experts say you need to be retrain on First Aid every 6 months</h2>
-        <h3> Subscribe to our mailer and we will send you updates every 6 months to help you help others </h3>
-  <form class="navbar-form navbar-left" role="search">
-       <div class="form-group">
-         <input type="text" class="form-control" placeholder="Search">
-       </div>
-  <button type="Sign Up" class="btn btn-default">Submit</button>
+</nav>
+<!--Navigation bar--->
+
+<div class="container">
+  <div class="row">
+   <div class="col-lg-12 mb-12">
+  <div class="jumbotron text-center">
+    <img src="lifeline logo.png" class="img-responsive" alt="Lifeline Logo">
+  </div>
+</div>
+</div>
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <div class="form-group">
+  <p> If you would like to partner with Lifeline or give us feedback on our services please fill out the contact form below </p>
  </form>
-      </div>
+</div>
       <div class="col-sm-12">
     <div class="contact-form">
   <form action="" method="post">
     <h2 class="text-center">Contact Us</h2>
     <div class="row">
-      <div class="col-md-6 col-xs-12">
+      <div class="col-md-12 col-xs-12">
         <div class="form-group">
           <input type="text" name="first_name" class="form-control" placeholder="First Name*" required="required"/>
         </div>
       </div>
-      <div class="col-md-6 col-xs-12">
+      <div class="col-md-12 col-xs-12">
         <div class="form-group">
           <input type="text" name="last_name" class="form-control" placeholder="Last Name*" required="required"/>
         </div>
@@ -78,7 +96,12 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
 </body>
+<footer>
+
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li class="active">About</li>
+  </ol>
+</footer>
 </html>
