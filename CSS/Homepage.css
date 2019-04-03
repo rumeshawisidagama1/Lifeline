@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:700');
+* {
+  margin: 5;
+  padding: 5;
+}
+
+body {
+  padding-top: 56px;
+  justify-content: center;
+}
+
+div {
+  padding-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+p {
+  padding-top: 5px;
+  justify-content: center;
+  align-content: center;
+}
+
+footer {
+       position: bottom;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       text-align: center;
+       padding-top: 5px;
+     }
+     /* Social Buttons*/
+  .fa {
+       padding: 20px;
+       font-size: 30px;
+       width: 100px;
+       text-align: center;
+       text-decoration: none;
+     }
+
+     /* Add a hover effect if you want */
+     .fa:hover {
+       opacity: 0.7;
+     }
+
+     /* Set a specific color for each brand */
+
+     /* Facebook */
+     .fa-facebook {
+       background: #3B5998;
+       color: white;
+     }
+
+     /* Twitter */
+     .fa-twitter {
+       background: #55ACEE;
+       color: white;
+     }
