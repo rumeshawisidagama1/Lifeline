@@ -1,39 +1,101 @@
 <!DOCTYPE html>
+
+<meta chartset="UTF-8">
 <html>
-<header>How to use a defibrillator</header>
-  <section id="section01" class="demo">
-    <h1>Step 1</h1>
-      <img src="Step 1.gif" />
-    <p>Turn the defibrillator on by pressing the green button and follow its instructions.</p>
-    <a href="#section01"><span></span>Next step</a>
-  </section>
-  <section id="section02" class="demo">
-  <h1>Step 2</h1>
-  <img src="Step 2.gif" />
-    <p>Peel off the sticky pads and attach them to the patient’s skin, one on each side of the chest, as shown in the picture on the defibrillator.</p>
-    <a href="#section02"><span></span>Next step</a>
-  </section>
-  <section id="section03" class="demo">
-    <h1>Step 3</h1>
-    <img src="Step 3.gif" />
-    <p>Once the pads have been attached, stop CPR and don’t touch the patient. The defibrillator will then analyse the patient’s heart rhythm.</p>
-    <a href="#section03"><span></span>Next step</a>
-  </section>
-  <section id="section04" class="demo">
-    <h1>Step 4</h1>
-    <img src="Step 4.gif" />
-    <p>The defibrillator will assess whether a shock is needed and if so, it will tell you to press the shock button. An automatic defibrillator will shock the patient without prompt. Do not touch the patient while they are being shocked.</p>
-    <a href="#section04"><span></span>Next step</a>
-  </section>
-  <section id="section05" class="demo">
-    <h1>Step 5</h1>
-    <p>The defibrillator will tell you when the shock has been delivered and whether you need to continue CPR.</p>
-    <a href="#section06"><span></span>Next step</a>
-  </section>
-  <section id="section06" class="demo">
-    <h1>Step 6</h1>
-    <img src="Step 6.gif" />
-    <p>Continue with chest compressions and rescue breaths until the patient shows signs of life or the defibrillator tells you to stop so it can analyse the heartbeat again.</p>
-  </section>
-</body>
-</html>
+<head>
+  <title>How to use a defibrillator</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script>
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+</script>
+
+
+<link rel="stylesheet" href="CSS/CPR.css"/>
+
+<style type="text/css">
+  div.nospaces {
+      margin: 0;
+      display: inline-block;
+      float: center;
+  }
+</style>
+
+</head>
+
+  <body>
+    <div class="jumbotron text-center">
+      <img src="lifeline_logo.png"/>
+    <p> Everyday people are first responders</p>
+
+
+</div>
+
+
+    <h2>How to use a defibrillator</h2>
+<br>
+<br>
+<br>
+
+
+      <section id="section01" class="demo">
+        <h2>Step 1</h2>
+          <div style="text-align: center"><img src="Defibrillator_gifs/Step 1.gif" />
+            <br>
+          <p>Turn the defibrillator on by pressing the green button and follow its instructions.</p>
+          <a href="#section02"><span></span>Next step</a>
+      </section>
+      <section id="section02" class="demo">
+        <h2>Step 2</h2>
+          <div style="text-align: center"><img src="Defibrillator_gifs/Step 2.gif" />
+            <br>
+        <p>Peel off the sticky pads and attach them to the patient’s skin, one on each side of the chest, as shown in the picture on the defibrillator.</p>
+        <a href="#section03"><span></span>Next step</a>
+      </section>
+      <section id="section03" class="demo">
+        <h2>Step 3</h2>
+          <div style="text-align: center"><img src="Defibrillator_gifs/Step 3.gif" />
+            <br>
+        <p>Once the pads have been attached, stop CPR and don’t touch the patient. The defibrillator will then analyse the patient’s heart rhythm.</p>
+        <a href="#section04"><span></span>Next step</a>
+    </section>
+    <section id="section04" class="demo">
+    <h2>Step 4</h2>
+        <div style="text-align: center"><img src="Defibrillator_gifs/Step 4.gif" />
+        <br>
+      <p>The defibrillator will assess whether a shock is needed and if so, it will tell you to press the shock button. An automatic defibrillator will shock the patient without prompt. Do not touch the patient while they are being shocked.</p>
+      <a href="#section05"><span></span>Next step</a>
+    </section>
+    <section id="section05" class="demo">
+    <h2>Step 5</h2>
+      <br>
+      <p>The defibrillator will tell you when the shock has been delivered and whether you need to continue CPR.</p><a href="#section06"><span></span>Next step</a>
+    </section>
+    <section id="section06" class="demo">
+      <h2>Step 6</h2>
+      <br>
+        <div style="text-align: center"><img src="Defibrillator_gifs/Step 6.gif" />
+      <p>Continue with chest compressions and rescue breaths until the patient shows signs of life or the defibrillator tells you to stop so it can analyse the heartbeat again.</p>
+    </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  </body>
+  </html>
